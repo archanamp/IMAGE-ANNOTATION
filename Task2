@@ -1,0 +1,18 @@
+import cv2
+
+import matplotlib
+import numpy as np
+from PIL import Image
+from PIL import ImageFilter
+from skimage import measure
+from scipy import ndimage
+
+image = cv2.imread('cc.png')
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+cv2.imwrite('gray_image.jpg',gray_image) 
+bw2=cv2.bitwise_not(gray_image)
+cv2.imwrite('cmplmntpg.jpg',bw2) 
+_,markers = cv2.connectedComponents(bw2)
+
+print "Total Number of Objects:"
+print np.amax(markers)
