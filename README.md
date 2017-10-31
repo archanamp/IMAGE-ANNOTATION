@@ -23,3 +23,9 @@ MATPLOTLIB,
 NUMPY,
 SCIPY.
 
+{REFERENCE}
+		 https://stackoverflow.com/questions/43547540/cv2-connectedcomponents-not-detecting-components
+   
+		 http://ieeexplore.ieee.org/document/7025627/
+   
+		 http://www.cs.cornell.edu/courses/cs4670/2013fa/projects/p5/index.html
