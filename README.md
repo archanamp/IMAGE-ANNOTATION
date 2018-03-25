@@ -2,7 +2,7 @@
 
 TASK 1(OBJECT DETECTOR):
 The interesting application for object detection is counting the num-
-ber of objects.The obect detection helps to assist the human operators
+ber of objects.The object detection helps to assist the human operators
 by implementing intelligent visual surviving systems.In object trac-
 ing we use image measurements to estimate position of object, but
 also incorporate position predicted by dynamics.
